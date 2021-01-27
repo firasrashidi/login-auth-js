@@ -1,4 +1,4 @@
 # login-auth-js
 Login Authentication using VanillaJS
-![valid](valid.png)
-![invalid](invalid.png)
+![valid](valid.PNG)
+![invalid](invalid.PNG)
