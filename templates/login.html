@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
+    <link rel="stylesheet" href="../static/login.css">
+    <script src="../assets/style.js" defer> </script>
+    <script src="../assets/validate.js" defer></script>
 </head>
 <body>
-    <form action="">
-        <input id="username" type="text" >
-        <input id="pass" type="password">
+    
+    <form id="login-form">
+        <h2>Login Authentication</h2>
+        <input id="username" type="text" placeholder="Email">
+        <br>
+        <input id="password" type="password" placeholder="Password">
     </form>
+    <p id="username-feedback"></p>
+    <p id="password-feedback"></p>
 </body>
 </html>
